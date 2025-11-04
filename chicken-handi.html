@@ -1,109 +1,64 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Chicken Handi - Shahil Azeez Restaurant</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chicken Handi - Shahi Lazeez Restaurant</title>
+<link rel="icon" href="images/favicon.png">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
 <style>
-body{font-family: Poppins, sans-serif; background:#fff8f0;}
-.hero-gradient{background: linear-gradient(135deg,#ffcc33,#ff9933,#ff4d4d); color:#fff; padding:40px 0; text-align:center;}
-.section-title{color:#cc3300; font-weight:700; margin:30px 0;}
-.card.fixed-card{height:260px; border-radius:12px; overflow:hidden; transition:transform .25s; box-shadow:0 6px 18px rgba(0,0,0,0.08);}
-.card.fixed-card img{object-fit:cover; width:100%; height:140px;}
-.card.fixed-card .card-body{height:120px; display:flex; flex-direction:column; justify-content:space-between;}
-.card.fixed-card:hover{transform:translateY(-6px); box-shadow:0 10px 30px rgba(0,0,0,0.12);}
-.placeholder{background:#ffe6cc; display:flex; align-items:center; justify-content:center; color:#cc6600; height:140px;}
-.footer{background: linear-gradient(90deg,#ff6600,#ff3300); color:#fff; padding:24px 0; margin-top:30px;}
-.spinner-overlay{position:fixed; inset:0; background:rgba(255,255,255,0.7); display:flex; align-items:center; justify-content:center; z-index:9999;}
-@media(min-width:992px){ .col-lg-3.col-card { flex:0 0 25%; max-width:25%; } }
-@media(max-width:767px){ .col-sm-6.col-card { flex:0 0 50%; max-width:50%; }
-  .card.fixed-card{height:280px;} }
+body{font-family:Poppins, sans-serif;background:#fff8f0}
+.hero{background:linear-gradient(135deg,#ffcc33,#ff9933,#ff4d4d);color:#fff;padding:30px;text-align:center}
+.section-title{color:#cc3300;font-weight:700}
+.card.fixed{height:300px;border-radius:12px;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,0.08);transition:transform .25s}
+.card.fixed img{object-fit:cover;width:100%;height:170px}
+.card.fixed .card-body{height:130px;display:flex;flex-direction:column;justify-content:space-between}
+.footer{background:linear-gradient(90deg,#ff6600,#ff3300);color:#fff;padding:20px;margin-top:30px}
+.spinner{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.8);z-index:9999}
+@media(min-width:992px){.col-lg-3.col-card{flex:0 0 25%;max-width:25%}}
+@media(max-width:767px){.col-sm-6.col-card{flex:0 0 50%;max-width:50%}.card.fixed{height:340px}}
 </style>
 </head>
 <body>
-<div id="spinner" class="spinner-overlay">
-  <div class="text-center">
-    <div class="spinner-border text-warning" role="status" style="width:4rem;height:4rem"></div>
-    <div class="mt-2">Loading Shahil Azeez Restaurant…</div>
-  </div>
-</div>
-
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background: linear-gradient(90deg,#ff9933,#ff4d4d);">
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">Shahil Azeez Restaurant</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="chicken-mandi.html">Chicken Mandi</a></li>
-            <li class="nav-item"><a class="nav-link" href="mutton-mandi.html">Mutton Mandi</a></li>
-            <li class="nav-item"><a class="nav-link" href="beef-handi.html">Beef Handi</a></li>
-            <li class="nav-item"><a class="nav-link" href="chicken-handi.html">Chicken Handi</a></li>
-            <li class="nav-item"><a class="nav-link" href="breads.html">Breads</a></li>
-            <li class="nav-item"><a class="nav-link" href="desserts.html">Desserts</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    
+<div id="spinner" class="spinner"><div class="text-center"><div class="spinner-border text-warning" style="width:4rem;height:4rem"></div><div class="mt-2">Loading Shahi Lazeez Restaurant…</div></div></div>
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background:linear-gradient(90deg,#ff9933,#ff4d4d)">
+<div class="container"><a class="navbar-brand fw-bold" href="index.html">Shahi Lazeez Restaurant</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="navmenu"><ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="chicken-mandi.html">Chicken Mandi</a></li>
+<li class="nav-item"><a class="nav-link" href="mutton-mandi.html">Mutton Mandi</a></li>
+<li class="nav-item"><a class="nav-link" href="fish-prawn-mandi.html">Fish & Prawn Mandi</a></li>
+<li class="nav-item"><a class="nav-link" href="beef-biryani.html">Beef Biryani</a></li>
+<li class="nav-item"><a class="nav-link" href="chicken-biryani.html">Chicken Biryani</a></li>
+<li class="nav-item"><a class="nav-link" href="veg-biryani.html">Veg Biryani</a></li>
+<li class="nav-item"><a class="nav-link" href="shawarma.html">Shawarma</a></li>
+<li class="nav-item"><a class="nav-link" href="grill-chicken.html">Grill Chicken</a></li>
+<li class="nav-item"><a class="nav-link" href="chinese-corner.html">Chinese Corner</a></li>
+<li class="nav-item"><a class="nav-link" href="chinese-veg.html">Chinese Veg</a></li>
+<li class="nav-item"><a class="nav-link" href="sea-food.html">Sea Food</a></li>
+<li class="nav-item"><a class="nav-link" href="chinese-dry-wet.html">Chinese Dry/Wet</a></li>
+<li class="nav-item"><a class="nav-link" href="rice-noodles.html">Rice & Noodles</a></li>
+<li class="nav-item"><a class="nav-link" href="dessert.html">Dessert</a></li>
+<li class="nav-item"><a class="nav-link" href="beef-dry-wet.html">Beef Dry/Wet</a></li>
+<li class="nav-item"><a class="nav-link" href="prawn.html">Prawn</a></li>
+<li class="nav-item"><a class="nav-link" href="roti.html">Roti</a></li>
+<li class="nav-item"><a class="nav-link" href="chicken-handi.html">Chicken Handi</a></li>
+<li class="nav-item"><a class="nav-link" href="mutton-handi.html">Mutton Handi</a></li>
+<li class="nav-item"><a class="nav-link" href="beef-handi.html">Beef Handi</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+</ul></div></div></nav>
 <main class="container my-4">
-<div class="d-flex justify-content-between align-items-center mb-3"><h2 class="section-title">Chicken Handi</h2><a href="index.html" class="btn btn-outline-secondary">Back to Home</a></div>
-<div class="row g-4">
-        <div class="col-6 col-sm-6 col-lg-3 col-card">
-          <div class="card fixed-card">
-            <img src="images/chicken-handi-item.jpg" onerror="this.onerror=null;this.src='images/placeholder.jpg';" alt="CHICKEN HANDI (30 MEMBERS)">
-            <div class="card-body">
-              <div>
-                <h6 class="card-title">CHICKEN HANDI (30 MEMBERS)</h6>
-                <p class="mb-0 text-muted">4,000/-</p>
-              </div>
-              <div class="text-end"><a class="btn btn-sm" href="contact.html" style="background:linear-gradient(90deg,#ffcc33,#ff4d4d); color:#fff; border-radius:20px;">Order</a></div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-6 col-sm-6 col-lg-3 col-card">
-          <div class="card fixed-card">
-            <img src="images/chicken-handi-item.jpg" onerror="this.onerror=null;this.src='images/placeholder.jpg';" alt="CHICKEN HANDI (50 MEMBERS)">
-            <div class="card-body">
-              <div>
-                <h6 class="card-title">CHICKEN HANDI (50 MEMBERS)</h6>
-                <p class="mb-0 text-muted">6,500/-</p>
-              </div>
-              <div class="text-end"><a class="btn btn-sm" href="contact.html" style="background:linear-gradient(90deg,#ffcc33,#ff4d4d); color:#fff; border-radius:20px;">Order</a></div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-6 col-sm-6 col-lg-3 col-card">
-          <div class="card fixed-card">
-            <img src="images/chicken-handi-item.jpg" onerror="this.onerror=null;this.src='images/placeholder.jpg';" alt="CHICKEN HANDI (100 MEMBERS)">
-            <div class="card-body">
-              <div>
-                <h6 class="card-title">CHICKEN HANDI (100 MEMBERS)</h6>
-                <p class="mb-0 text-muted">12,000/-</p>
-              </div>
-              <div class="text-end"><a class="btn btn-sm" href="contact.html" style="background:linear-gradient(90deg,#ffcc33,#ff4d4d); color:#fff; border-radius:20px;">Order</a></div>
-            </div>
-          </div>
-        </div>
-        </div>
+<div class="d-flex justify-content-between align-items-center mb-3"><h2 class="section-title">Chicken Handi</h2><a href="index.html" class="btn btn-outline-secondary">Back to Home</a></div><div class="row g-4"><div class="col-6 col-sm-6 col-lg-3 col-card"><div class="card fixed"><img src="images/chicken-handi-item.jpg" onerror="this.onerror=null;this.src='images/placeholder.jpg';" alt="CHICKEN HANDI (30 MEMBERS)"><div class="card-body"><div><h6 class="card-title">CHICKEN HANDI (30 MEMBERS)</h6><p class="mb-0 text-muted">4,000/-</p></div><div class="text-end"><a class="btn btn-sm" href="contact.html" style="background:linear-gradient(90deg,#ffcc33,#ff4d4d);color:#fff;border-radius:20px">Order</a></div></div></div></div><div class="col-6 col-sm-6 col-lg-3 col-card"><div class="card fixed"><img src="images/chicken-handi-item.jpg" onerror="this.onerror=null;this.src='images/placeholder.jpg';" alt="CHICKEN HANDI (50 MEMBERS)"><div class="card-body"><div><h6 class="card-title">CHICKEN HANDI (50 MEMBERS)</h6><p class="mb-0 text-muted">6,500/-</p></div><div class="text-end"><a class="btn btn-sm" href="contact.html" style="background:linear-gradient(90deg,#ffcc33,#ff4d4d);color:#fff;border-radius:20px">Order</a></div></div></div></div><div class="col-6 col-sm-6 col-lg-3 col-card"><div class="card fixed"><img src="images/chicken-handi-item.jpg" onerror="this.onerror=null;this.src='images/placeholder.jpg';" alt="CHICKEN HANDI (100 MEMBERS)"><div class="card-body"><div><h6 class="card-title">CHICKEN HANDI (100 MEMBERS)</h6><p class="mb-0 text-muted">12,000/-</p></div><div class="text-end"><a class="btn btn-sm" href="contact.html" style="background:linear-gradient(90deg,#ffcc33,#ff4d4d);color:#fff;border-radius:20px">Order</a></div></div></div></div></div>
 </main>
 <footer class="footer text-center">
-  <div class="container">
-    <p class="mb-1">Shahil Azeez Restaurant</p>
-    <p class="mb-1"><i class="bi bi-telephone"></i> +91 9966632123 | +91 74168 57768 | +91 93818 03544</p>
-    <p class="mb-0">&copy; 2025 Shahil Azeez Restaurant. All Rights Reserved.</p>
-  </div>
+<div class="container">
+<p class="mb-1">Shahi Lazeez Restaurant</p>
+<p class="mb-1"><i class="bi bi-telephone"></i> +91 9966632123 | +91 74168 57768 | +91 93818 03544</p>
+<p class="mb-0">&copy; 2025 Shahi Lazeez Restaurant. All Rights Reserved.</p>
+</div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-window.addEventListener('load', function(){ setTimeout(function(){ document.getElementById('spinner').style.display='none'; }, 600); });
-</script>
+<script>window.addEventListener('load', function(){ setTimeout(function(){ document.getElementById('spinner').style.display='none'; }, 600); });</script>
 </body>
 </html>
